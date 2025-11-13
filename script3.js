@@ -1,9 +1,9 @@
 function iti(){
-    var pa = parseFloat(document.getElementById('pai').value);
+    var pa = parseInt(document.getElementById('pai').value);
     document.getElementById('pao').innerHTML = pa;
     document.getElementById('pao2').innerHTML = pa;
 
-    var year = parseFloat(document.getElementById('yi').value);
+    var year = parseInt(document.getElementById('yi').value);
     document.getElementById('yo').innerHTML = year;
 
     var rate = parseFloat(document.getElementById('ri').value);
