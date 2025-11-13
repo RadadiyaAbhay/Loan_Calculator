@@ -1,12 +1,12 @@
 function iti(){
-    var pa = parseInt(document.getElementById('pai').value);
+    var pa = parseFloat(document.getElementById('pai').value);
     document.getElementById('pao').innerHTML = pa;
     document.getElementById('pao2').innerHTML = pa;
 
-    var year = parseInt(document.getElementById('yi').value);
+    var year = parseFloat(document.getElementById('yi').value);
     document.getElementById('yo').innerHTML = year;
 
-    var rate = parseInt(document.getElementById('ri').value);
+    var rate = parseFloat(document.getElementById('ri').value);
     document.getElementById('rate').innerHTML= rate ;
     
     var hShow =  `
